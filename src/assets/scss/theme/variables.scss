@@ -1,0 +1,31 @@
+$h1-fontsize: 2.5rem !default;
+$h2-fontsize: 2rem !default;
+$h3-fontsize: 1.5rem !default;
+$h4-fontsize: 1.4rem !default;
+$h5-fontsize: 1.3rem !default;
+$h6-fontsize: 1rem !default;
+
+i {
+    line-height: inherit;
+  
+    &.left {
+      float: left;
+      margin-right: 15px;
+    }
+    &.right {
+      float: right;
+      margin-left: 15px;
+    }
+    &.tiny {
+      font-size: 1rem!important;
+    }
+    &.small {
+      font-size: 2rem!important;
+    }
+    &.medium {
+      font-size: 3rem!important;
+    }
+    &.large {
+      font-size: 4rem!important;
+    }
+  }
